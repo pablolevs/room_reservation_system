@@ -23,8 +23,6 @@ class ReservationSystem
 private:
     int room_count;
     int *room_capacities;
-    // Estruturas internas escolhidas pelos alunos
-    // para armazenar e gerenciar as reservas, os horários, ...
     ReservationNode **room_schedules;
 
 public:
@@ -35,9 +33,6 @@ public:
     bool cancel(std::string course_name);
     void printSchedule();
     int getDayNumber(string weekday);
-
-    // Outros métodos utilitários necessários
-    // para auxiliar nas funções requisitadas
 };
 
 #endif
