@@ -49,12 +49,6 @@ cancelamento.
 e reserva a primeria disponível.
 - Cancelamento: Percorre cada reserva buscando pelo nome da matéria a ser cancelada, ao achar, apaga a reserva e libera a memória.
 
-## Complexidade
-
-- Adicionar uma nova reserva tem custo O(n) onde **n** é o número de reservas na sala (pois percorre cada reserva para ver em qual posição se deve adicionar)
-- Cancelar uma reserva tem custo O(m) onde **m** é o número total de reservas (pois percorre todas as reservas em busca daquela a ser cancelada)
-- Verificação tem custo O(k) por sala, onde **k** é o número de reservas naquela sala (pois percorre cada reserva verificando os horários)
-
 ## Autores
 
 - Raul Medici Martinelli
